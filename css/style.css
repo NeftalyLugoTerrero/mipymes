@@ -577,11 +577,11 @@ header {
     position: relative;
 }
 
-#home {
+#inicio {
     height: 100vh;
 }
 
-#home .home-wrapper {
+#inicio .home-wrapper {
     position: absolute;
     left: 0px;
     right: 0px;
