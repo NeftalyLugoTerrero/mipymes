@@ -30,15 +30,17 @@
 		}, 600);
 	});
 	
-	$('#inicio').on('click', function(){
+	$('.footer-logo #inicio').on('click', function(){
 		$('body,html').animate({
 			scrollTop: 0
 		}, 600);
 	});
 	
-	$('#nosotros').on('click', function(){
-		$('body,html').animate({
-			scrollTop: 0
+	$(".home-content #nosotros").on('click', function(e) {
+		e.preventDefault();
+		var hash = this.hash;
+		$('html, body').animate({
+			scrollTop: $(this.hash).offset().top
 		}, 600);
 	});
 
