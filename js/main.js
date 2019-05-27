@@ -29,6 +29,18 @@
 			scrollTop: 0
 		}, 600);
 	});
+	
+	$('#inicio').on('click', function(){
+		$('body,html').animate({
+			scrollTop: 0
+		}, 600);
+	});
+	
+	$('#nosotros').on('click', function(){
+		$('body,html').animate({
+			scrollTop: 0
+		}, 600);
+	});
 
 	///////////////////////////
 	// Btn nav collapse
