@@ -30,13 +30,13 @@
 		}, 600);
 	});
 	
-	$('.footer-logo #inicio').on('click', function(){
+	$('.footer-logo a').on('click', function(){
 		$('body,html').animate({
 			scrollTop: 0
 		}, 600);
 	});
 	
-	$(".home-content #nosotros").on('click', function(e) {
+	$(".fa-angle-down").on('click', function(e) {
 		e.preventDefault();
 		var hash = this.hash;
 		$('html, body').animate({
