@@ -1448,7 +1448,9 @@ header {
     text-decoration: underline;
 /*     outline: none; */
     opacity: 0.8;
-    color: #6195FF;
+/*     color: #6195FF; */
+	color: #868F9B;
+    outline-color: #868F9B;
 }
 
 
