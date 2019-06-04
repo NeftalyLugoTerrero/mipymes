@@ -1443,6 +1443,15 @@ header {
     margin-left: 15px;
 }
 
+
+#contacto a:hover, #contacto a:focus {
+    text-decoration: underline;
+/*     outline: none; */
+    opacity: 0.8;
+    color: #6195FF;
+}
+
+
 /*------------------------------------*\
 	Footer
 \*------------------------------------*/
