@@ -103,5 +103,31 @@
 			}
 		}
 	});
+	
+	$('#team-slider').owlCarousel({
+		items:3,
+		startPosition:0,
+		loop:true,
+    		autoplayTimeout:5000,
+		margin:15,
+		dots : true,
+		nav: false,
+		navText : ['<i class="fa fa-angle-left"></i>','<i class="fa fa-angle-right"></i>'],
+		autoplay : true,
+		autoplayHoverPause:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				margin:15
+			},
+			600:{
+				items:2
+			},
+			1000:{
+				items:3
+			}
+		}
+	});
 
 })(jQuery);
