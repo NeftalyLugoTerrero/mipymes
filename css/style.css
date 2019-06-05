@@ -1756,6 +1756,22 @@ header {
 	ME
 \*------------------------------------*/
 
+.logo-inst img {
+    width: 200px;
+}
+
+.logo-inst {
+    margin-bottom: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+}
+
+#logo-itla {
+    max-width: 200px;
+}
+
 #contacto a:hover, #contacto a:focus {
     text-decoration: underline;
 /*     outline: none; */
