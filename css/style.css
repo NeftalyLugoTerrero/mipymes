@@ -1758,10 +1758,11 @@ header {
 
 .logo-inst img {
     width: 200px;
+    padding: 15px;
 }
 
 .logo-inst {
-    margin-bottom: 75px;
+    margin-bottom: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1769,7 +1770,7 @@ header {
 }
 
 #logo-itla {
-    max-width: 200px;
+    width: 150px;
 }
 
 #contacto a:hover, #contacto a:focus {
