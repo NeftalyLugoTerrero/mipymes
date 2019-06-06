@@ -1838,13 +1838,14 @@ header {
 
 @media all and (max-width: 575px) {
     .logo-div {
-        padding: 15px !important;
+/*         padding: 15px !important; */
     }
     #logo-micm,
     #logo-rd {
         margin-bottom: 20px !important;
     }
     .logo-inst {
+	padding: 15px !important; /* .logo-div {padding: 15px !important;} */
         margin-bottom: 35px !important;
     }
     .logo-inst img {
