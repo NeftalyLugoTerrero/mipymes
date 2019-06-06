@@ -1844,6 +1844,9 @@ header {
     #logo-rd {
         margin-bottom: 20px !important;
     }
+    .logo-inst {
+        margin-bottom: 35px !important;
+    }
     .logo-inst img {
         width: 185px !important;
         padding: 10px !important;
@@ -1851,6 +1854,9 @@ header {
     #logo-itla {
         width: 135px !important;
         padding-left: 5px !important;
+    }
+    #nosotros {
+        padding-top: 35px !important;
     }
 }
 
