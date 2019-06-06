@@ -1821,3 +1821,36 @@ header {
 }
 
 
+@media all and (max-width: 1199px) {}
+
+@media all and (max-width: 991px) {}
+
+@media all and (max-width: 768px) {
+    .logo-inst img {
+        width: 175px !important;
+        padding: 10px !important;
+    }
+    #logo-itla {
+        width: 125px !important;
+        padding-left: 5px !important;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .logo-div {
+        padding: 15px !important;
+    }
+    #logo-micm,
+    #logo-rd {
+        margin-bottom: 20px !important;
+    }
+    .logo-inst img {
+        width: 185px !important;
+        padding: 10px !important;
+    }
+    #logo-itla {
+        width: 135px !important;
+        padding-left: 5px !important;
+    }
+}
+
